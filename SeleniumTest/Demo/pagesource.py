@@ -4,4 +4,7 @@ driver = webdriver.Chrome()
 
 driver.get("https://www.geeksforgeeks.org/")
 
-print(driver.page_source)
+#to print page sources
+# print(driver.page_source)
+
+print(driver.title)
