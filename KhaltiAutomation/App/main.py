@@ -27,7 +27,7 @@ time.sleep(20)
 driver.switch_to.window(driver.current_window_handle)
 print(driver.current_url)
 
-# transfer = driver.find_element(By.LINK_TEXT, "TRANSFER")
-# transfer.click()
+transfer = driver.find_element(By.XPATH, "//*[@class='FundItem--1yG4v']")
+transfer.click()
 
 time.sleep(50)
