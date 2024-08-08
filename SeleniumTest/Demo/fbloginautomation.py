@@ -23,4 +23,6 @@ password_box.send_keys(os.getenv("PASSWORD"))
 login_box = driver.find_element(By.NAME, "login")
 login_box.click()
 
+print("LogIn Successful")
+
 time.sleep(20)
